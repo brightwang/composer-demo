@@ -1,0 +1,20 @@
+{
+    "name": "brightwang/composer-demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "brightwang",
+            "email": "brightwang1984@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Add\\": "src/Add"
+        }
+    }
+}
